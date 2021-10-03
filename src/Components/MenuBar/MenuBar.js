@@ -1,0 +1,28 @@
+import React from 'react';
+import { Link } from 'react-router-dom';
+
+const MenuBar = () => {
+    
+    return (
+        <div className="MenuBar-container">
+      <div className="container">
+        <div className="row">
+          <div className="col-md-2">
+            <div className="logo-img">
+              <img className="w-75" src=" " alt="" />
+            </div>
+          </div>
+          <div className="col-md-10">
+            <div className="menu-container ">
+            <ul className="d-flex align-items-end justify-content-end">
+             
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    );
+};
+
+export default MenuBar;
