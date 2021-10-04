@@ -12,16 +12,17 @@ const AllCourses = () => {
             .then(res => res.json())
             .then(data => setAllCourses(data));
     }, []);
+
     return (
         <>
             <MenuBar></MenuBar>
 
             <div className="allcourses-container">
                 {
-                    allCourses.map(scourse => 
+                    allCourses.map(scourse =>
                         <AllCourseShow
-                        key = {scourse.id}
-                            scourse = {scourse}
+                            key={scourse.id}
+                            scourse={scourse}
                         >
                             
                         </AllCourseShow>

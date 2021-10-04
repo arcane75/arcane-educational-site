@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import "./Footer.css";
 
 const Footer = () => {
@@ -24,46 +25,67 @@ const Footer = () => {
               </div>
             </div>
             <p className="mt-5">
-                  <small>Arcane 2021 ©  All rights reserved.</small>
-                </p>
+              <small>Arcane 2021 ©  All rights reserved.</small>
+            </p>
           </div>
-
         </div>
 
 
         <div className="col-md-2">
-          <div className="footer-menu-container">
+          <div className="">
             <ul>
-              <li className="footer-menu">Home</li>
-              <li className="footer-menu">All Courses</li>
-              <li className="footer-menu">Instructor</li>
-              <li className="footer-menu">Contact us</li>
-              <li className="footer-menu"> About us</li>
+
+              <li className="footer-menu">
+                <Link to="/home" className="item">
+                  Home
+                </Link>
+              </li>
+
+              <li className="footer-menu">
+                <Link to="/all-courses" className="item">
+                  All Courses
+                </Link>
+              </li>
+
+              <li className="footer-menu">
+                <Link to="/instructor" className="item">
+                  Instructor
+                </Link>
+              </li>
+
+              <li className="footer-menu">
+                <Link to="/contact" className="item">
+                  Contact us
+                </Link>
+              </li>
+
+              <li className="footer-menu">
+                <Link to="/about" className="item">
+                  About us
+                </Link>
+              </li>
+
             </ul>
           </div>
         </div>
 
 
         <div className="col-md-5">
-          <div className="right-footer-container">
+          <div className="">
             <h3>Sign up for the newsletter</h3>
+            <br />
             <input
               className="footer-input"
               type="text"
               placeholder="Enter Email"
             />
-            <div className="phone d-flex align-items-center justify-content-center mt-4">
-              <div className="foter-phone-icon">
-
-              </div>
+            <div className="d-flex align-items-center justify-content-center mt-4">
               <div>
-                <h5>+1 8 800 555 35 35</h5>
+                <h5>+880 184 4476</h5>
               </div>
             </div>
-            <div className="map d-flex align-items-center justify-content-center">
-              <div className="foter-phone-icon">
 
-              </div>
+            <div className="d-flex align-items-center justify-content-center">
               <div>
                 <p>
                   160 Broadway, New York, NY 10038,
@@ -71,12 +93,9 @@ const Footer = () => {
                 </p>
               </div>
             </div>
+
           </div>
         </div>
-
-
-        <div></div>
-        <div></div>
       </div>
     </div>
   );

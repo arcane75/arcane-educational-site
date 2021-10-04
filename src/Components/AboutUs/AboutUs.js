@@ -8,7 +8,7 @@ const AboutUs = () => {
         <div>
             <MenuBar></MenuBar>
             <div className="about-img">
-            
+
             </div>
             <div className="row about-text">
                 <div className="col-md-12">

@@ -13,11 +13,11 @@ const Courses = () => {
 
     return (
         <div className="courses-container">
-            
+
             {
                 courses.map(course => <Course
-                    key = {course.id}
-                    course = {course}
+                    key={course.id}
+                    course={course}
                 >
 
                 </Course>)
