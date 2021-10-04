@@ -10,7 +10,7 @@ const Home = () => {
             <Banner></Banner>
             <div className="home-courseText">
             <h1>LEARN FROM THE BEST </h1>
-            <h3>Get Ahead, Improve Your Skill with Dev Skill Training Academy</h3>
+            <h3>Get Ahead, Improve Your Skill with Arcane CodeHub Training Academy</h3>
             <br />
             <div className="experince-course">
             <h5>Get Hands On Experience in Real World Software Development from Industry Experts Through Practical and Real World Courses.</h5>
