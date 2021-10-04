@@ -6,3 +6,8 @@ Project Live Link [Arcane Programming Skill Academy](https://arcane-educational-
 
 ** Students can purchase course
 
+** Join the course through Website and
+
+** In Future more features will be added **
+
+** Students can see about us and Courses
