@@ -24,7 +24,7 @@ const AllCourses = () => {
                             key={scourse.id}
                             scourse={scourse}
                         >
-                            
+
                         </AllCourseShow>
                     )
                 }
