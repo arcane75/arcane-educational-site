@@ -1,9 +1,8 @@
-import logo from './logo.svg';
+
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Banner from './Components/Banner/Banner';
 import React, { createContext, useState } from "react";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Home from './Components/Home/Home';
 import AboutUs from './Components/AboutUs/AboutUs';
 import Instructor from './Components/Instructor/Instructor';

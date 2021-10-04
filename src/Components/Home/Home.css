@@ -1,0 +1,11 @@
+.home-courseText{
+    background-color: rgba(70, 96, 143, 0.137);
+    line-height: 40px;
+}
+.home-courseText h3{
+    background-color: black;
+    color: white;
+}
+.experince-course{
+    padding-bottom: 20px;
+}

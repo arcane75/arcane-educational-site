@@ -9,12 +9,12 @@ const MenuBar = () => {
         <div className="MenuBar-container">
       <div className="container">
         <div className="row">
-          <div className="col-md-2">
+          <div className="col-md-2 col-sm-12 mx-auto">
             <div className="logo-img">
               <img className="w-75" src={logo}alt="" />
             </div>
           </div>
-          <div className="col-md-10">
+          <div className="col-md-10 col-sm-12 mx-auto">
             <div className="menu-container ">
             <ul className="d-flex align-items-end justify-content-end">
                 <Link to="/home" className="items">
