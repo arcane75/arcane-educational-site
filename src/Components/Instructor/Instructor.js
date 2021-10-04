@@ -7,6 +7,9 @@ const Instructor = () => {
     return (
         <div>
             <MenuBar></MenuBar>
+            <div className="instructor-container">
+                <h1>Our Instructors</h1>
+            </div>
             <Footer></Footer>
         </div>
     );

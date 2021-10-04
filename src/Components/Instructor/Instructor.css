@@ -1,0 +1,7 @@
+.instructor-container{
+    background-image: url(../../images/instructor.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height:500px;
+}
