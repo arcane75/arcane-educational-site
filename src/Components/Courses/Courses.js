@@ -4,7 +4,6 @@ import "./Courses.css";
 
 const Courses = () => {
     const [courses, setCourses] = useState([]);
-    const [displayCourses, setDisplayCourse] = useState([]);
 
     useEffect(() => {
         fetch("./courses.JSON")

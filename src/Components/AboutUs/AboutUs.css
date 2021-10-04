@@ -1,0 +1,7 @@
+.about-text{
+    margin: 50px;
+}
+.about-img{
+    background-image: url(../../images/about-us.png);
+   height: 350px;
+}
