@@ -4,9 +4,9 @@ import "./Banner.css";
 
 const Banner = () => {
     return (
-        <div className="banner-container ">
+        <div className="banner-container">
             <div className="">
-                <div className="row d-flex banner align-items-center justify-content-center">
+                <div className="row banner">
                     <MenuBar></MenuBar>
                     <div className="col-md-6">
                         <button className="mt-3 about-btn">About Us</button>

@@ -3,12 +3,19 @@
     margin-right: 30px;
     font-size: 22px;
     font-weight: 500;
-    color: rgb(218, 214, 214);
+    color: #43196D;
     cursor: pointer;
     padding: 5px;
     text-decoration: none;
+    border: 1px solid #651daca6;
+    border-radius:15px;
   }
   .items:hover {
     color: rgb(221, 5, 5);
+    border-color: rgb(124, 146, 206);
   }
-  
+ .MenuBar-container{
+   background-color: #C8C8C8;
+   height: 50px;
+   padding-top: 3px;
+ }

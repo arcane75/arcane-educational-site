@@ -1,6 +1,6 @@
 .banner {
-    background-image: url("./banner.jpg"),
-      linear-gradient(rgba(0, 0, 0, 0.103), rgba(0, 0, 0, 0.13));
+    background-image: url("./banner2.jpg"),
+      linear-gradient(rgba(0, 0, 0, 0.226), rgba(0, 0, 0, 0.13));
     height: 780px;
     width: 100%;
     /* border: 1px solid red; */
@@ -8,14 +8,9 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 600px;
-    padding-top:50px;
+    padding-top: 20px;
   }
-  .title {
-    color: white;
-    font-weight: bold;
-    font-size: 59px;
-  }
+
   .about-btn {
     background-color: #43196D;
     outline: none;
