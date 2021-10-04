@@ -10,7 +10,7 @@ const Instructor = () => {
             <MenuBar></MenuBar>
 
             <div className="instructor-container">
-                
+
             </div>
 
             <Footer></Footer>
