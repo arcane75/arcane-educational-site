@@ -1,7 +1,7 @@
 import React from 'react';
 import MenuBar from '../MenuBar/MenuBar';
 
-const AboutUs = () => {
+const Courses = () => {
     return (
         <div>
             <MenuBar></MenuBar>
@@ -9,4 +9,4 @@ const AboutUs = () => {
     );
 };
 
-export default AboutUs;
+export default Courses;

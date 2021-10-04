@@ -29,7 +29,7 @@ const MenuBar = () => {
                 <Link to="/about" className="items">
                   <li>About us</li>
                 </Link>
-                <Link to="contact" className="items">
+                <Link to="/contact" className="items">
                   <li>Contact us</li>
                 </Link>
               </ul>
