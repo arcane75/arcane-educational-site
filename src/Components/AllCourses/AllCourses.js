@@ -16,7 +16,9 @@ const AllCourses = () => {
     return (
         <>
             <MenuBar></MenuBar>
+            <div className="offer-courses">
 
+</div>
             <div className="allcourses-container">
                 {
                     allCourses.map(scourse =>
