@@ -11,7 +11,7 @@ const AboutUs = () => {
 
             </div>
             <div className="row about-text">
-                <div className="col-md-12">
+                <div className="col-md-9 mx-auto">
                     <br />
                     <h2>Working for the IT Industry </h2>
                     <h5>Arcane CodeHub has always been passionatly working for the betterment of IT industry. We want to grow skilled IT professionals who will rock the world with their extraordinary professionalism. As part of our mission, we arrange programming contest, software engineering events and seminars. We believe in hard core industry specialization to grow the top 10% IT professionals in the country and around the globe.</h5>

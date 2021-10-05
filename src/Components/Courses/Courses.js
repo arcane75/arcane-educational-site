@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Course from '../Course/Course';
 import "./Courses.css";
-
+import { Card, Col, Container, Row } from 'react-bootstrap';
 const Courses = () => {
     const [courses, setCourses] = useState([]);
 
@@ -12,7 +12,7 @@ const Courses = () => {
     }, []);
 
     return (
-        <div className="courses-container">
+        <div className="courses-container ">
 
             {
                 courses.map(course => <Course
