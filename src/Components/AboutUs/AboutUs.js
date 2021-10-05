@@ -10,6 +10,7 @@ const AboutUs = () => {
             <div className="about-img">
 
             </div>
+
             <div className="row about-text">
                 <div className="col-md-9 mx-auto">
                     <br />
@@ -30,6 +31,7 @@ const AboutUs = () => {
                     <h5>Get to know how to work in a project with your colleagues. Collaborate with other people in the process and learn team work.</h5>
                 </div>
             </div>
+            
             <Footer></Footer>
         </div>
     );

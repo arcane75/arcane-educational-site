@@ -1,0 +1,33 @@
+[
+    {
+        "id": 1,
+        "name": "MD Shahriar Hossain",
+        "img": "https://bakejobs.com/wp-content/uploads/2020/05/dummy-man-png-2-1.png",
+        "description": "Always eager to solve real world problems. Participated in many onsite programming contest. My cf handle: Introverted. Currently working as a Software Engineer at Samsung R&D Institute, Bangladesh.",
+        "specialist" : "Software Engineer"
+    },
+    
+    {
+        "id": 2,
+        "name": "Md Sadman Sakib",
+        "img": "https://bakejobs.com/wp-content/uploads/2020/05/dummy-man-png-2-1.png",
+        "description": "I am Md Sadman Sakib, an engineering graduate from University of Dhaka, specialized in Computer Science & Engineering. I love to learn,code,eat and travel! My CF Handle: reverse_macro",
+        "specialist" : "Sr. Software Engineer"
+    },
+    
+    {
+        "id": 3,
+        "name": "Md Mashihoor Rahman",
+        "img": "https://bakejobs.com/wp-content/uploads/2020/05/dummy-man-png-2-1.png",
+        "description": "Working as a IT Security Analyst (SOC Analyst/Incident Responder) in the Security Operation Center (SOC) at a multinational IT Company, Melbourne, Australia.",
+        "specialist" : "IT Security Analyst"
+    },
+    
+    {
+        "id": 4,
+        "name": "Khalid Bin Sattar",
+        "img": "https://bakejobs.com/wp-content/uploads/2020/05/dummy-man-png-2-1.png",
+        "description": "Over 10 years of field level and job experiences in IT, Systems Administration, DevOps and Cloud Computing. Also certified AWS Solution Architect Associate",
+        "specialist" : "CloudOps,DevOps"
+    }
+]

@@ -1,20 +1,20 @@
-
-import Footer from '../Footer/Footer';
-import MenuBar from '../MenuBar/MenuBar';
-import MenuBarr from '../MenuBar/MenuBarr';
+import React from 'react';
 import "./Instructor.css";
 
-const Instructor = () => {
-
+const Instructor = (props) => {
+    const {name,img, specialist, description} = props.instructor;
     return (
-        <div>
-            <MenuBar></MenuBar>
-
-            <div className="instructor-container">
-
+        <div className="instructor-container">
+            <div>
+                <img src={img} alt="" />
             </div>
-
-            <Footer></Footer>
+            <br />
+            <div>
+                <h4>{name}</h4>
+                <p>{description}</p>
+                <br />
+                <h5>Specialist: {specialist}</h5>
+            </div>
         </div>
     );
 };
