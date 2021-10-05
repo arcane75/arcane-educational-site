@@ -18,7 +18,7 @@ const AllCourses = () => {
             <MenuBar></MenuBar>
             <div className="offer-courses">
 
-</div>
+            </div>
             <div className="allcourses-container">
                 {
                     allCourses.map(scourse =>

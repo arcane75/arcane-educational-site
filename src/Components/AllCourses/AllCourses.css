@@ -18,6 +18,6 @@
         grid-template-columns: repeat(1, 1fr);
     }
     .offer-courses{
-        height: 150px;
+        height: 100px;
     }
 }
