@@ -5,3 +5,9 @@
     margin: 50px 10px 0px 10px;
     margin-bottom:30px;
 }
+@media screen and (max-width:500px){
+    .allcourses-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
