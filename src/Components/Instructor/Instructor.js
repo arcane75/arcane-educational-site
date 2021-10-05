@@ -1,6 +1,7 @@
 
 import Footer from '../Footer/Footer';
 import MenuBar from '../MenuBar/MenuBar';
+import MenuBarr from '../MenuBar/MenuBarr';
 import "./Instructor.css";
 
 const Instructor = () => {
